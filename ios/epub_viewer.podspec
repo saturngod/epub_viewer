@@ -20,7 +20,7 @@ A new flutter plugin project.
 
   s.dependency 'Flutter'
   
-  s.dependency 'EpubViewerKit', '~> 0.1.2'
+  s.dependency 'EpubViewerKit',:git => 'https://github.com/saturngod/FolioReaderKit.git', :branch => 'master'
   s.ios.deployment_target = '9.0'
 
   
